@@ -1,0 +1,234 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    max-height: 500%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+nav a {
+    background-color: black;
+    padding: 30px;
+    list-style: none;
+    color: white;
+
+
+}
+
+.index_nav {
+    display: flex;
+    object-fit: cover;
+}
+
+.index_div-img {
+    height: 30vh;
+}
+
+.index_div {
+    width: 100%;
+}
+
+main {
+    height: 250vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_div-contenedor-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    gap: 40px;
+}
+
+.index_img {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+
+.index_contenedor-info {
+    display: flex;
+    flex-direction: column;
+    height: 300vh;
+    gap: 50px;
+
+}
+
+.index_info-box {
+    display: flex;
+    height: 300px;
+}
+
+.index_ul {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    color: white;
+}
+
+.index_info-box2 {
+    display: flex;
+    height: 300px;
+    background-color: gray;
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+.index_th {
+    font-size: 20px;
+    padding: 30px;
+}
+
+table,
+td,
+th {
+    width: 50%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.index_footer {
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+}
+
+@media only screen and (min-width: 600px) {
+    .index_div-img {
+        flex-direction: row;
+        height: 20vh;
+    }
+
+    .index_div {
+        width: 99%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .index_img {
+        width: 30%;
+    }
+
+    .main_div-contenedor-img {
+        flex-direction: row;
+    }
+
+    .main_div-contenedor-img {
+        height: 50vh;
+        width: 100%;
+    }
+
+    .index_h1 {
+        height: 10vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+
+    .index_p {
+        height: 5vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+
+    .index-p2 {
+        text-align: center;
+        margin: 20px;
+    }
+
+    .index_ul {
+        width: 100%;
+    }
+
+    .index_contenedor-info {
+        flex-direction: row;
+        height: 60vh;
+        width: 100%;
+        justify-content: space-evenly;
+
+    }
+
+    table,
+    td,
+    th {
+        width: 100%;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #333;
+        color: white;
+        background-color: black;
+        flex-direction: row;
+    }
+
+    nav a {
+        background-color: black;
+        color: white;
+        text-decoration: none;
+
+
+    }
+
+    main {
+        height: 130vh;
+    }
+
+    .index_footer {
+        height: 30vh;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+        color: white;
+        background: black;
+    }
+
+    .index_fieldset {
+        justify-content: center;
+        display: flex;
+        padding: 20px;
+        width: 30%;
+        font-size: 20px;
+    }
+    form{
+        padding: 15px;
+        margin: 20px;
+    }
+
+    .index-btn1{
+        font-size: 15px;
+
+    }
+
+
+}
